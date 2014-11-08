@@ -1,5 +1,6 @@
 funny
 =====
-Start to learn to use Git!
+learn to use Git!
+
 =====
 funny
