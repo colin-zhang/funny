@@ -13,3 +13,13 @@ int main()
  a = system("ls"); 
  printf("a=%d\n",a);
 }
+
+/*
+cygwin
+
+$ ./strstr-t.exe
+ctime-test.c  FILE_t  strstr-t.c  strstr-t.exe  strtok.c  strtok.exe
+p3 worldxxx
+a=0
+
+*/

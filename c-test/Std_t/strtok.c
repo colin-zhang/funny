@@ -16,3 +16,9 @@ int main(void)
     if (p) printf("%s\n", p);
     return 0;
 }
+
+/*
+$ ./strtok.exe
+abc
+d
+*/
