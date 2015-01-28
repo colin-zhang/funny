@@ -2,3 +2,8 @@
 *.exe
 *.so
 *.a
+*.class
+.metadata
+.recommenders
+.settings
+
