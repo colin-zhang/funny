@@ -3,22 +3,22 @@ package colin.test;
 
 public class Test {
 	
-	public static final String TestVersion = "v1.0.1";	
-	enum EnumTest{TEST_1,TEST2,TEST_3,TEST_4} EnumTest enumTest;
+	private static final String TestVersion = "v1.0.1";	
+	private enum EnumTest{TEST_1,TEST2,TEST_3,TEST_4} EnumTest enumTest;
 	
 	Test(){
 		this.enumTest = enumTest.TEST_1;
 	}
 	
-	void testPrintVersion(){
+	void printVersion(){
 		System.out.println(TestVersion);
 	}
 	
-	void testPrintEnumTest(){
+	void printEnumTest(){
 		System.out.println(this.enumTest);
 	}
 			
-	void testDateType(){
+	void printDataType(){
 		 // byte  
         System.out.println("基本类型：byte 二进制位数：" + Byte.SIZE);  
         System.out.println("包装类：java.lang.Byte");  

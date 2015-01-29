@@ -1,50 +1,28 @@
 package colin.test;
 
-import java.util.Date;
-import colin.math.Basic_math;
 
-
-
-class TestMath extends Basic_math{
-//	public int add(int a,int b){
-//		return 0;
-//	}
-	public int add(int a){
-		return 10000;
-	}
-}
 
 public class My_test {
     
-	public static void main(String []args) {
-    	TestMath m = new TestMath();
-    	
-    	Date d = new Date();
-    	
-    	Test myTest = new Test();
-    	
+	public static void main(String []args) {    
+    
+    	Test myTest = new Test(); 
+    	TestArray myTestArray = new TestArray();
+    	TestString myTestString = new TestString();
+    	TestDate myTestDate = new TestDate();
     	
     	//myTest.testDateType();
-    	myTest.testPrintVersion();
-    	myTest.testPrintEnumTest();
+    	myTest.printVersion();
+    	myTest.printEnumTest();
+    
+    	myTestArray.testPrintEmptyArray();
+    	myTestArray.testPrintSortArray();
     	
-    	int a=1;
-    	int b=2;
-    	int c = m.add(a, b);
+    	myTestString.printStringHelloWord();
     	
-    	System.out.println(m.add(a));
-    	
-   
-    	
-        if(d instanceof Date){
-        	System.out.println("d is Date type");
-        }
-
-    	System.out.println("Hello World");
-    	System.out.println(c);
-    	
-    	System.out.println(d.toString());
-    	
+//    	int a =1;
+//    	Integer b = 2;
+//    	b.
 
     }
 }
