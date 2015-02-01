@@ -1,0 +1,4 @@
+One class can implement more than one interface.
+One interface also can extend more than one interface.
+
+all the methods of a interface are abstract.
