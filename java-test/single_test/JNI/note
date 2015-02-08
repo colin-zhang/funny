@@ -1,0 +1,6 @@
+javac Hello.java
+javah Hello
+
+make
+
+java Hello

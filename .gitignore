@@ -3,6 +3,10 @@
 *.so
 *.a
 *.class
+*.obj
+*.exp
+*.dll
+*.lib
 .metadata
 .recommenders
 .settings
