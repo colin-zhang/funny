@@ -1,7 +1,5 @@
 package colin.test;
 
-
-
 public class My_test {
     
 	public static void main(String []args) {    

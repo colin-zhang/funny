@@ -34,8 +34,8 @@ NoSuchFieldException	 请求的变量不存在
 NoSuchMethodException	 请求的方法不存在
 
 */
-
-
+																		
+	
 import java.lang.Error;
 class Error1{
 	public static void main(String[] args){
