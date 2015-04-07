@@ -14,3 +14,4 @@
 .tags_sorted_by_file
 *.sublime-project
 *.sublime-workspace
+/vc++/test/t2/ipch
