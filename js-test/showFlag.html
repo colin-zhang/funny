@@ -1,0 +1,46 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>show flag</title>
+ <link rel="shortcut icon" href="favicon.ico" /> 
+</head>
+
+<script type="text/javascript">
+
+function showPrompt(){
+	alert("no");
+}
+
+function showFlag(){
+	var flag = document.flagform.flag.value;
+
+	element=document.getElementById("flag")
+	element.src="flags"+"/"+flag+".png";
+/*if (element.src.match("bulbon"))
+  {
+  element.src="/images/pic_bulboff.gif";
+  }
+else
+  {
+  element.src="/images/pic_bulbon.gif";
+  }
+}*/
+}
+	
+</script>
+
+<body>
+
+	<div >
+		<img src="flags/CNY.png" id= "flag">
+	</div>
+
+	<form name="flagform">
+		Flag:<input style="text" name ="flag">
+			 <input type= "button" value="Confirm"  onclick="showFlag()">
+	</form>
+
+</body>
+
+
+</html>
